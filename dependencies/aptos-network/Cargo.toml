@@ -1,0 +1,26 @@
+[package]
+name = "aptos-network"
+version = "0.1.0"
+authors.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+publish.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+anyhow = { workspace = true }
+serde = { workspace = true }
+thiserror = { workspace = true }
+aptos-config = { workspace = true }
+bytes = { workspace = true }
+aptos-logger = { workspace = true }
+aptos-types = { workspace = true }
+async-trait = { workspace = true }
+itertools = { workspace = true }
+tokio = { workspace = true }
+
+
+[features]
+fuzzing = []
